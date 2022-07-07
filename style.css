@@ -1,0 +1,36 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.skip {
+    color: rgb(255, 0, 0);
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.Display {
+    display: flex;
+    margin-bottom: 100px;
+
+}
+
+.A {
+    width: 50%;
+    padding: 2%;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, rgb(250, 179, 166));
+    padding: 10px 30px;
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.B {
+    background-image: url(images/shapes/7.png);
+
+}
