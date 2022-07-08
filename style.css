@@ -19,6 +19,7 @@ h1 {
     box-shadow: 5px 10px 10px 5px gray;
     padding: 2%;
     border-radius: 10px;
+    jus
 }
 
 .A {
@@ -53,4 +54,31 @@ h1 {
 footer {
     text-align: center;
     background-color: aquamarine;
+}
+
+.column {
+    padding: 10px;
+    height: 200px;
+}
+
+.left,
+.right {
+    width: 25%;
+}
+
+.middle {
+    width: 50%;
+}
+
+.row:after {
+    display: table;
+    clear: both;
+}
+
+.a {
+    box-shadow: 5px 10px 10px 5px gray;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
